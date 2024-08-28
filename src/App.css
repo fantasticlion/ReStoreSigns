@@ -1,38 +1,462 @@
-.App {
+/* Common styles */
+h1, h2, h3, li {
+  color: rgb(32, 59, 93);
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 1.8em;
+}
+
+h3, label {
+  font-size: 1.2em;
+  line-height: 0;
+}
+
+li {
+  font-size: 1.2em;
+  margin-bottom: 0.75em;
+  font-weight: 550;
+}
+
+button {
+  font-size: 1em;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+/* Favorites section */
+.favorites {
+  background-color: rgba(228, 250, 255, 1);
+  width: 15em;
+  position: fixed;
+  top: 4em;
+  right: 0;
+  padding: 0 0 2em 2.5em;
+  z-index: 1000;
+}
+
+.favorites h3 {
+  font-size: 2vh;
+}
+
+.favorites label {
+  font-size: 1.8vh;
+}
+
+.favorites input {
+  margin-bottom: 0.9em;
+}
+
+.favorites button, .item button, .toggle-button {
+  font-weight: bold;
+  color: black;
+  background-color: rgba(198, 214, 43, 1);
+  border: none;
+  padding: 0.5em 1em;
+  margin-top: 1em;
+}
+
+.release-time-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.release-time-item {
+  width: 50%; /* Each item takes up half the width of the container */
+  box-sizing: border-box;
+  /*padding: 0.1em 0;*/
+}
+
+/* Product section */
+.product {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  background-color: rgba(44, 176, 211, 1);
+  width: 25em;
+  margin: 1.5em;
+  padding: 2em 2em 2em 3em;
+  display: flex;
+  flex-direction: column; /* Align items vertically */
+  align-items: left; /* Center items horizontally */
+  position: relative;
+  /*border-radius: 1.5em;*/
+}
+
+.item img {
+  max-width: 20em;
+  max-height: 20em;
+  object-fit: cover;
+  /*margin-bottom: 1em; Add margin to separate from other elements */
+  border-radius: 0.5em;
+}
+
+.item button {
+  position: absolute;
+  right: 2em;
+  bottom: 1em;
+}
+
+.toggle-button {
+  position: fixed; 
+  top: 0.7em; 
+  right: 2em; 
+  z-index: 1001; 
+  background-color: rgba(198, 214, 43, 1); 
+  border: none;
+  padding: 0.5em 1em;
+  font-weight: bold;
+  color: black;
+}
+
+/* Responsive styles */
+@media (max-width: 1053px) {
+  h1 {
+    font-size: 1.5em; /* Adjust as needed */
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  h2 {
+    font-size: 1.35em; /* Adjust as needed */
+  }
+
+  h3, label, li, button {
+    font-size: 0.9em; /* Adjust as needed */
+  }
+
+  .favorites {
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    text-align: center;
+  }
+
+  .toggle-button {
+    top: 1.5em;
+    font-size: 0.8em;
+    border-width: 0.12em;
+    padding: 0.33em 0.67em;
+    z-index: 1001;
+  }
+
+  .item {
+    width: 62.5vw;
+    margin: 5vw;
+  }
+
+  .item img {
+    max-max-width: 100%;
+    margin: 0 0 1em 0;
+  }
+}
+
+/* Navigation bar styles */
+nav {
+  background-color: rgba(44, 176, 211, 1);
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 1.8vw 5.2vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow */
+}
+
+nav .logo {
+  margin-right: auto;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding-top: 10px;
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+nav ul li {
+  margin-left: 16px;
+}
+
+nav ul li a {
+  color: white;
+  padding-left: 1.45vw;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 16.5px;
+}
+
+nav ul li a:hover {
+  color: rgb(32, 59, 93);
+}
+
+/* Make Locations link bold */
+.nav-locations {
+  font-weight: bold;
+}
+
+/* Go to Top and Go to Bottom buttons */
+.go-to-top, .go-to-bottom {
+  position: fixed;
+  right: 2em;
+  z-index: 1001;
+  background-color: rgba(198, 214, 43, 1);
+  border: none;
+  padding: 0.5em 1em;
+  font-weight: bold;
+  color: black;
+  display: none; /* Initially hidden */
+  font-size: 0.75em; /* Smaller font size */
+  border-radius: 0.3em;
+  text-align: center; /* Center the text */
+}
+
+.go-to-top {
+  top: calc(50vh - 2em); /* Center vertically, adjust as needed */
+}
+
+.go-to-bottom {
+  top: calc(50vh + 2em); /* Center vertically, adjust as needed */
+}
+
+/* Show buttons in mobile view */
+@media (max-width: 1053px) {
+  .go-to-top, .go-to-bottom {
+    display: block;
+  }
+}
+
+/* Dropdown menu styles */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgb(32, 59, 93);
+  min-width: 225px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  right: 0;
+  text-align: right;
+  border-radius: 5px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: white;
+  text-alignment: right;
+  padding: 0.3em 0.6em 0.3em 0.6em;
+  font-weight: bold;
+  font-size: 16.5px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  color: rgba(198, 214, 43, 1);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.menu-icon {
+  display: none;
+  cursor: pointer;
+}
+
+.menu-icon .bar {
+  width: 37.5px;
+  height: 1px;
+  margin: 8px 8px;
+  transition: 0.4s;
+}
+
+.top-bar {
+  background-color: rgb(255,255,255,255);
+}
+
+.middle-bar {
+  background-color: rgb(255,255,255,255);
+}
+
+.bottom-bar {
+  background-color: rgb(255,255,255,255);
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 1000;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.overlay .close-btn {
+  position: absolute;
+  top: 8.8vw;
+  left: 10vw;
+  color: rgba(44, 176, 211, 1);
+  font-size: 1.7em;
+  cursor: pointer;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.overlay-menu {
+  display: block;
+  justify-content: center;
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20%;
+}
+
+.overlay-menu li {
+  margin: 20px 20px;
+  display: block;
+}
+
+.overlay-menu li a {
+  text-decoration: none;
+  font-weight: normal;
+  color: rgba(44, 176, 211, 1);
+  font-size: 8.5vmin;
+}
+
+.overlay-menu li a.underline {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 576px ) {
+    .overlay-menu li a {
+        font-size: 6.6vmin;
+    }
+}
+
+@media screen and (min-width: 768px ) {
+    .overlay-menu li a {
+        font-size:6vmin
+    }
+}
+
+@media (max-width: 1053px) {
+  nav {
+    min-height: 23vw;
+  }
+  
+  nav ul {
+    display: none;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    left: 6.75vw;
+  }
+
+  nav .logo {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 4vw;
+  }
+
+  nav .logo img {
+    max-width: 30vw;
+    object-fit: contain;
+  }
+
+  .overlay {
+    display: none;
+  }
+
+  .overlay.active {
+    display: block;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+/* Footer Styles */
+footer {
+  background-color: rgba(32, 59, 93, 1); /* Dark Blue */
+  color: white;
+  padding: 2em 1em;
+  text-align: center;
+  margin-top: 4.32em;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Apply top and bottom margin to all direct children of footer-container */
+.footer-container > * {
+  margin-top: 2.16em;
+  margin-bottom: 2.16em;
+}
+
+.footer-mission {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 2.16em;
+}
+
+.footer-container ul {
+  font-size: 1em;
+  font-weight: normal;
+  margin: 1.08em 0;
+}
+
+.footer-container a {
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.footer-container p {
+  font-size: 1em;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.footer-links ul {
+  list-style-type: none;
+  padding: 0;
+  font-size: 1em;
+}
+
+.footer-links ul li {
+  display: inline-block;
+  margin-right: 1em;
+  font-size: 1em;
+  font-weight: normal;
+  text-decoration: underline;
+}
+
+.footer-social {
+  margin: 2.16em 0;
+  font-size: 1em;
+}
+
+.footer-social a {
+  margin: 0 1em;
+  font-size: 1em;
+}
+
+.footer-social img {
+  width: 30px;
+  height: 30px;
 }

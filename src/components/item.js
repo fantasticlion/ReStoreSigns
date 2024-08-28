@@ -8,9 +8,9 @@ export default function ProductItem(props) {
         <li>Processor: {props.info["processor"]}</li>
         <li>Release Time: {props.info["release_time"]}</li>
         <li>Note: {props.info["note"]}</li>
-        <li>Price: ${props.info["price"]}</li>
+        <li>Price: ${props.info["unit_price"]}</li>
       </ul>
-      <button onClick={() => props.setStateOfParent(props.info["name"], props.info["price"])}>
+      <button onClick={() => props.setStateOfParent(props.info["name"], props.info["unit_price"])}>
         {props.added === 1 ? "Remove" : "Calculate Total"}</button>
     </div>);
 }

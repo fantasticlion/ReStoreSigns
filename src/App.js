@@ -16,8 +16,8 @@ function App() {
 
   const allSorts = {
     productType: { method: (a, b) => (parseFloat(a.id) < parseFloat(b.id) ? -1 : 1) },
-    ascending: { method: (a, b) => (parseFloat(a.price) < parseFloat(b.price) ? -1 : 1) },
-    descending: { method: (a, b) => (parseFloat(a.price) > parseFloat(b.price) ? -1 : 1) },
+    ascending: { method: (a, b) => (parseFloat(a.unit_price) < parseFloat(b.unit_price) ? -1 : 1) },
+    descending: { method: (a, b) => (parseFloat(a.unit_price) > parseFloat(b.unit_price) ? -1 : 1) },
   };
 
   const allFilters = 
@@ -35,10 +35,10 @@ function App() {
     {type: "product_type", value: "Fitness"},
     {type: "product_type", value: "Other"}]
 
-  const updateFavorites = (name, price) => {
+  const updateFavorites = (name, unit_price) => {
     let tempFavorites = favorites;
     tempFavorites[name] = tempFavorites[name] === 1 ? -1 : 1;
-    setTotal(total + tempFavorites[name] * parseFloat(price));
+    setTotal(total + tempFavorites[name] * parseFloat(unit_price));
     setFavorites(tempFavorites);
   };
 
@@ -187,9 +187,9 @@ function App() {
               <input className="jss4" type="radio" value="productType" defaultChecked name="sort" onClick={() => setSort("productType")}></input>
               <label> Product Date </label><br/>
               <input className="jss4" type="radio" value="ascending" name="sort" onClick={() => setSort("ascending")}></input>
-              <label> Price: Ascending </label><br/>
+              <label> unit_price: Ascending </label><br/>
               <input className="jss4" type="radio" value="descending" name="sort" onClick={() => setSort("descending")}></input>
-              <label> Price: Descending </label><br/>
+              <label> unit_price: Descending </label><br/>
             </div>
 
             <div className="filtering">
@@ -240,7 +240,7 @@ function App() {
             </div>
           
             <div>
-              <h3>Total Price:</h3>
+              <h3>Total unit_price:</h3>
               <label>${total}</label>
             </div>
             <button onClick={() => resetPage()}>{"Reset"}</button>

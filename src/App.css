@@ -21,6 +21,20 @@ h3, label {
   line-height: 0;
 }
 
+.inline-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inline-container h2 {
+  margin: 0;
+}
+
+.inline-container .show-button {
+  margin-left: 1em;
+}
+
 li {
   font-size: 1.2em;
   margin-bottom: 0.75em;

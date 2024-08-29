@@ -1,8 +1,8 @@
 body {
   margin: 0;
   background: linear-gradient(
-      rgba(235, 235, 235, 0.5), 
-      rgba(235, 235, 235, 0.5)
+      rgba(235, 235, 235, 0.8), 
+      rgba(235, 235, 235, 0.8)
     ),
     url('https://images.squarespace-cdn.com/content/v1/60148fcfca55b203f218fe44/cc925d0d-cb49-4e12-ab51-f080246c0387/IMG_6218.jpg?format=2500w') no-repeat center center fixed;
   background-size: cover;

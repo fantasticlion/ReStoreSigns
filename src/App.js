@@ -223,7 +223,7 @@ function App() {
             </div>
           
             <div>
-              <h3>Total unit_price:</h3>
+              <h3>Total Price:</h3>
               <label>${total}</label>
             </div>
             <button onClick={() => resetPage()}>{"Reset"}</button>

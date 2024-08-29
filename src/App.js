@@ -72,34 +72,6 @@ function App() {
     }
   }
 
-const selectOtherFilters = (currentFilter, filterType) => {
-    setFilter(prevFilter => {
-      let tempFilters = prevFilter[filterType];
-  
-      if (tempFilters.includes(currentFilter)) {
-        tempFilters = tempFilters.filter(f => f !== currentFilter);
-      } else {
-        tempFilters.push(currentFilter);
-      }
-  
-      const newFilter = { ...prevFilter, [filterType]: tempFilters };
-  
-      const size = newFilter["release_time"].length + newFilter["product_type"].length + newFilter["processor"].length;
-      if (size === 0 || size === allFilters.length) {
-        setFilterData(productsData);
-      } else {
-        setFilterData(productsData.filter(item => 
-          (newFilter["release_time"].includes(item["release_time"]) || newFilter["release_time"].length === 0) && 
-          (newFilter["product_type"].includes(item["product_type"]) || newFilter["product_type"].length === 0) && 
-          (newFilter["processor"].includes(item["processor"]) || newFilter["processor"].length === 0)
-        ));
-      }
-  
-      return newFilter;
-    });
-  };
-
-
   const resetPage = () => {
     setSort("productType");
     setFilter({"release_time": [], "product_type": [], "processor": []});
@@ -204,7 +176,7 @@ const selectOtherFilters = (currentFilter, filterType) => {
       <div className="product-cards">
         <h1>Permanent Items at Green Country ReStores</h1>
         <h2>ReStore Tulsa</h2> 
-        <button onClick={() => selectOtherFilters("ReStore-Tulsa", "processor")}>Hide Items</button>
+        <button onClick={() => updateFilter("ReStore-Tulsa", "processor")}>Hide Items</button>
         <div className="product"> {
           filterData.sort(allSorts[sort].method)
             .map((item, index) => (<ProductItem key={"product" + index} info={item} 

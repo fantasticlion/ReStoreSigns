@@ -204,29 +204,6 @@ function App() {
               <label> Fitness </label><br/>
               <input type="checkbox" value="Other" onClick={() => updateFilter("Other", "product_type")}/> 
               <label> Other </label><br/>
-              
-              <div className="filtering">
-              <h3>Release Time:</h3>
-              <div className="release-time-container">
-                <div className="release-time-item">
-                  <input type="checkbox" value="8/14" onClick={() => updateFilter("8/14", "release_time")}/> 
-                  <label> 8/14 </label>
-                </div>
-                <div className="release-time-item">
-                  <input type="checkbox" value="8/15" onClick={() => updateFilter("8/15", "release_time")}/> 
-                  <label> 8/15 </label>
-                </div>
-                <div className="release-time-item">
-                  <input type="checkbox" value="8/16" onClick={() => updateFilter("8/16", "release_time")}/> 
-                  <label> 8/16 </label>
-                </div>
-                <div className="release-time-item">
-                  <input type="checkbox" value="8/17" onClick={() => updateFilter("8/17", "release_time")}/> 
-                  <label> 8/17 </label>
-                </div>
-              </div>
-            </div>
-
 
               <h3>Processor:</h3>
               <input type="checkbox" value="ReStore-Tulsa" onClick={() => updateFilter("ReStore-Tulsa", "processor")}/> 

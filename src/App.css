@@ -82,9 +82,9 @@ button:hover {
 
 .item {
   /* background-color: rgba(44, 176, 211, 1); */
-  width: 25vw;
+  width: 24.5vw;
   margin: 1.5em;
-  padding: 0 0 5em 0em;
+  padding: 0 0 3em 0em;
   display: flex;
   flex-direction: column; /* Align items vertically */
   align-items: left; /* Center items horizontally */
@@ -102,8 +102,8 @@ button:hover {
 
 .item button {
   position: absolute;
-  right: 2em;
-  bottom: 1em;
+  right: 0em;
+  bottom: 0em;
 }
 
 .toggle-button {

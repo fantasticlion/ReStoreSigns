@@ -84,7 +84,7 @@ button:hover {
   /* background-color: rgba(44, 176, 211, 1); */
   width: 20vw;
   margin: 1.5em;
-  padding: 2em 2em 2em 3em;
+  padding: 0 0 5em 0em;
   display: flex;
   flex-direction: column; /* Align items vertically */
   align-items: left; /* Center items horizontally */

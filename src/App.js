@@ -88,6 +88,18 @@ function App() {
     setNewMenuActive(!newMenuActive);
   }
 
+  const toggleProductVisibility = () => {
+    const products = document.querySelectorAll('.product');
+    products.forEach(product => {
+      if (product.style.display === 'none') {
+        product.style.display = 'block';
+      } else {
+        product.style.display = 'none';
+      }
+    });
+  };
+
+
   // Disable horizontal scrolling when scale is 1
   function disableHorizontalScroll() {
     if (window.visualViewport.scale === 1) {
@@ -175,6 +187,7 @@ function App() {
     
       <div className="product-cards">
         <h1>Permanent Items at Green Country ReStores</h1>
+        <button onClick={toggleProductVisibility}>Toggle Products</button>
         <div className="product"> {
           filterData.sort(allSorts[sort].method)
             .map((item, index) => (<ProductItem key={"product" + index} info={item} 

@@ -175,7 +175,7 @@ function App() {
     
       <div className="product-cards">
         <h1>Permanent Items at Green Country ReStores</h1>
-        <input type="checkbox" value="ReStore-Tulsa" onClick={() => updateFilter("ReStore-Tulsa", "processor")}/> 
+        <input type="checkbox" value="ReStore-Tulsa" onClick={() => updateFilter("ReStore-Tulsa", "processor")} checked/> 
         <h2> ReStore-Tulsa </h2>
         <div className="product"> {
           filterData.sort(allSorts[sort].method)
@@ -198,29 +198,29 @@ function App() {
 
             <div className="filtering">
               <h3>Product Type:</h3>
-              <input type="checkbox" value="Tile Flooring" onClick={() => updateFilter("Tile Flooring", "product_type")}/>
+              <input type="checkbox" value="Tile Flooring" onClick={() => updateFilter("Tile Flooring", "product_type")} checked/>
               <label> Tile Flooring </label><br/>
-              <input type="checkbox" value="Luxury Vinyl" onClick={() => updateFilter("Luxury Vinyl", "product_type")}/> 
+              <input type="checkbox" value="Luxury Vinyl" onClick={() => updateFilter("Luxury Vinyl", "product_type")} checked/> 
               <label> Luxury Vinyl </label><br/>
-              <input type="checkbox" value="Paint" onClick={() => updateFilter("Paint", "product_type")}/> 
+              <input type="checkbox" value="Paint" onClick={() => updateFilter("Paint", "product_type")} checked/> 
               <label> Paint </label><br/>
-              <input type="checkbox" value="Carpet" onClick={() => updateFilter("Carpet", "product_type")}/> 
+              <input type="checkbox" value="Carpet" onClick={() => updateFilter("Carpet", "product_type")} checked/> 
               <label> Carpet </label><br/>
-              <input type="checkbox" value="Electric" onClick={() => updateFilter("Electric", "product_type")}/> 
+              <input type="checkbox" value="Electric" onClick={() => updateFilter("Electric", "product_type")} checked/> 
               <label> Electric </label><br/>
-              <input type="checkbox" value="Furniture" onClick={() => updateFilter("Furniture", "product_type")}/> 
+              <input type="checkbox" value="Furniture" onClick={() => updateFilter("Furniture", "product_type")} checked/> 
               <label> Furniture </label><br/>
-              <input type="checkbox" value="Other" onClick={() => updateFilter("Other", "product_type")}/> 
+              <input type="checkbox" value="Other" onClick={() => updateFilter("Other", "product_type")} checked/> 
               <label> Other </label><br/>
 
               <h3>Processor:</h3>
-              <input type="checkbox" value="ReStore-Tulsa" onClick={() => updateFilter("ReStore-Tulsa", "processor")}/> 
+              <input type="checkbox" value="ReStore-Tulsa" onClick={() => updateFilter("ReStore-Tulsa", "processor")} checked/> 
               <label> ReStore-Tulsa </label><br/>
-              <input type="checkbox" value="ReStore Rack" onClick={() => updateFilter("ReStore Rack", "processor")}/> 
+              <input type="checkbox" value="ReStore Rack" onClick={() => updateFilter("ReStore Rack", "processor")} checked/> 
               <label> ReStore Rack </label><br/>
-              <input type="checkbox" value="ReStore-Broken Arrow" onClick={() => updateFilter("ReStore-Broken Arrow", "processor")}/> 
+              <input type="checkbox" value="ReStore-Broken Arrow" onClick={() => updateFilter("ReStore-Broken Arrow", "processor")} checked/> 
               <label> ReStore-Broken Arrow </label><br/>
-              <input type="checkbox" value="ReStore-Claremore" onClick={() => updateFilter("ReStore-Claremore", "processor")}/> 
+              <input type="checkbox" value="ReStore-Claremore" onClick={() => updateFilter("ReStore-Claremore", "processor")} checked/> 
               <label> ReStore-Claremore </label><br/>
             </div>
           

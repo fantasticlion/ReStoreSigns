@@ -137,7 +137,8 @@ function App() {
               <a href="https://www.greencountryrestore.org/restore-rack">ReStore Rack</a>
               <a href="https://www.greencountryrestore.org/restorebrokenarrow">ReStore Broken Arrow</a>
               <a href="https://www.greencountryrestore.org/restoreclaremore">ReStore Claremore</a>
-              <a href="https://fantasticlion.github.io/ReStoreItems/">ReStore Items</a>
+              <a href="https://fantasticlion.github.io/ReStoreItems/">ReStore Facebook Items</a>
+              <a href="https://fantasticlion.github.io/ReStoreSigns/">ReStore Permanent Items</a>
             </div>
           </li>
           <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
@@ -164,7 +165,8 @@ function App() {
                 <li><a href="https://www.greencountryrestore.org/restore-rack">ReStore Rack</a></li>
                 <li><a href="https://www.greencountryrestore.org/restorebrokenarrow">ReStore Broken Arrow</a></li>
                 <li><a href="https://www.greencountryrestore.org/restoreclaremore">ReStore Claremore</a></li>
-                <li><a href="https://fantasticlion.github.io/ReStoreItems/" className="underline">ReStore Items</a></li>
+                <a href="https://fantasticlion.github.io/ReStoreItems/">ReStore Facebook Items</a>
+                <a href="https://fantasticlion.github.io/ReStoreSigns/">ReStore Permanent Items</a>
               </>
             )}
           </div>

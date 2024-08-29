@@ -184,10 +184,13 @@ function App() {
         {showNav ? 'Hide Filters' : 'Show Filters'}
       </button>
     )}
-    
+      <h1>Permanent Items at Green Country ReStores</h1>
+      <h2> ReStore Tulsa</h2>
+      <button onClick={toggleProductVisibility} class = "show-button">-</button>
+        
       <div className="product-cards">
-        <h1>Permanent Items at Green Country ReStores</h1>
-        <button onClick={toggleProductVisibility}>Toggle Products</button>
+        
+
         <div className="product"> {
           filterData.sort(allSorts[sort].method)
             .map((item, index) => (<ProductItem key={"product" + index} info={item} 

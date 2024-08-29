@@ -201,7 +201,7 @@ function App() {
       <div className="product-cards">
         <h1>Permanent Items at Green Country ReStores</h1>
         <h2>ReStore Tulsa</h2> 
-        <button onClick={() => selectOtherFilters("ReStore-Tulsa", "processor")} className = "toggle-button">Hide Items</button>
+        <button onClick={() => selectOtherFilters("ReStore-Tulsa", "processor")}>Hide Items</button>
         <div className="product"> {
           filterData.sort(allSorts[sort].method)
             .map((item, index) => (<ProductItem key={"product" + index} info={item} 

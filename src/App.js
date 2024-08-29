@@ -72,6 +72,26 @@ function App() {
     }
   }
 
+  const selectOtherFilters = (currentFilter, filterType) => {
+    let tempFilters = allFilters.filter(f => f.type === filterType && f.value !== currentFilter).map(f => f.value);
+    filter[filterType] = [...tempFilters];
+    setFilter(filter);
+
+    const size = filter["release_time"].length + filter["product_type"].length + filter["processor"].length;
+    if (size === 0 || size === allFilters.length) {
+      setFilterData(productsData);
+    } 
+    else {
+      setFilterData(productsData.filter(item => 
+        (filter["release_time"].includes(item["release_time"]) 
+        || filter["release_time"].length === 0) && 
+        (filter["product_type"].includes(item["product_type"]) 
+        || filter["product_type"].length === 0) && 
+        (filter["processor"].includes(item["processor"]) 
+        || filter["processor"].length === 0)));
+    }
+  }
+
   const resetPage = () => {
     setSort("productType");
     setFilter({"release_time": [], "product_type": [], "processor": []});

@@ -165,8 +165,8 @@ function App() {
                 <li><a href="https://www.greencountryrestore.org/restore-rack">ReStore Rack</a></li>
                 <li><a href="https://www.greencountryrestore.org/restorebrokenarrow">ReStore Broken Arrow</a></li>
                 <li><a href="https://www.greencountryrestore.org/restoreclaremore">ReStore Claremore</a></li>
-                <a href="https://fantasticlion.github.io/ReStoreItems/">ReStore Facebook Items</a>
-                <a href="https://fantasticlion.github.io/ReStoreSigns/">ReStore Permanent Items</a>
+                <li><a href="https://fantasticlion.github.io/ReStoreItems/">ReStore Facebook Items</a></li>
+                <li><a href="https://fantasticlion.github.io/ReStoreSigns/">ReStore Permanent Items</a></li>
               </>
             )}
           </div>

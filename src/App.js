@@ -82,7 +82,7 @@ function App() {
     }
   
     filter[filterType] = [...tempFilters];
-    setFilter(filter);
+    setFilter({ ...filter });
   
     const size = filter["release_time"].length + filter["product_type"].length + filter["processor"].length;
     if (size === 0 || size === allFilters.length) {

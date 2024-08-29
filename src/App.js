@@ -175,6 +175,8 @@ function App() {
     
       <div className="product-cards">
         <h1>Permanent Items at Green Country ReStores</h1>
+        <input type="checkbox" value="ReStore-Tulsa" onClick={() => updateFilter("ReStore-Tulsa", "processor")}/> 
+        <h2> ReStore-Tulsa </h2>
         <div className="product"> {
           filterData.sort(allSorts[sort].method)
             .map((item, index) => (<ProductItem key={"product" + index} info={item} 

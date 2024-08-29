@@ -72,28 +72,31 @@ function App() {
     }
   }
 
-  const selectOtherFilters = (currentFilter, filterType) => {
-    let tempFilters = filter[filterType];
+const selectOtherFilters = (currentFilter, filterType) => {
+    setFilter(prevFilter => {
+      let tempFilters = prevFilter[filterType];
   
-    if (tempFilters.includes(currentFilter)) {
-      tempFilters = tempFilters.filter(f => f !== currentFilter);
-    } else {
-      tempFilters.push(currentFilter);
-    }
+      if (tempFilters.includes(currentFilter)) {
+        tempFilters = tempFilters.filter(f => f !== currentFilter);
+      } else {
+        tempFilters.push(currentFilter);
+      }
   
-    filter[filterType] = [...tempFilters];
-    setFilter({ ...filter });
+      const newFilter = { ...prevFilter, [filterType]: tempFilters };
   
-    const size = filter["release_time"].length + filter["product_type"].length + filter["processor"].length;
-    if (size === 0 || size === allFilters.length) {
-      setFilterData(productsData);
-    } else {
-      setFilterData(productsData.filter(item => 
-        (filter["release_time"].includes(item["release_time"]) || filter["release_time"].length === 0) && 
-        (filter["product_type"].includes(item["product_type"]) || filter["product_type"].length === 0) && 
-        (filter["processor"].includes(item["processor"]) || filter["processor"].length === 0)
-      ));
-    }
+      const size = newFilter["release_time"].length + newFilter["product_type"].length + newFilter["processor"].length;
+      if (size === 0 || size === allFilters.length) {
+        setFilterData(productsData);
+      } else {
+        setFilterData(productsData.filter(item => 
+          (newFilter["release_time"].includes(item["release_time"]) || newFilter["release_time"].length === 0) && 
+          (newFilter["product_type"].includes(item["product_type"]) || newFilter["product_type"].length === 0) && 
+          (newFilter["processor"].includes(item["processor"]) || newFilter["processor"].length === 0)
+        ));
+      }
+  
+      return newFilter;
+    });
   };
 
 

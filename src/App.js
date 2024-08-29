@@ -92,7 +92,7 @@ function App() {
     const products = document.querySelectorAll('.product');
     products.forEach(product => {
       if (product.style.display === 'none') {
-        product.style.display = 'block';
+        product.style.display = 'flex';
       } else {
         product.style.display = 'none';
       }

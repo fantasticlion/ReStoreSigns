@@ -185,8 +185,11 @@ function App() {
       </button>
     )}
       <h1>Permanent Items at Green Country ReStores</h1>
-      <h2> ReStore Tulsa</h2>
-      <button onClick={toggleProductVisibility} class = "show-button">-</button>
+      <div className="inline-container">
+        <h2>ReStore Tulsa</h2>
+        <button onClick={toggleProductVisibility} className="show-button">-</button>
+      </div>
+
         
       <div className="product-cards">
         

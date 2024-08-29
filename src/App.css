@@ -5,7 +5,8 @@ h2, h3, li {
 
 h1 {
   color: white;
-  padding: 3.5vh 0 3.5vh 0;
+  padding: 5vh 0 5vh 0;
+  margin: 0 0 5vh 0;
   background-color: rgb(32, 59, 93);
   text-align: center;
   font-size: 3em;

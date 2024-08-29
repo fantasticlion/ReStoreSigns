@@ -229,16 +229,6 @@ function App() {
               <label> Furniture </label><br/>
               <input type="checkbox" value="Other" onClick={() => updateFilter("Other", "product_type")}/> 
               <label> Other </label><br/>
-
-              <h3>Processor:</h3>
-              <input type="checkbox" value="ReStore-Tulsa" onClick={() => updateFilter("ReStore-Tulsa", "processor")}/> 
-              <label> ReStore-Tulsa </label><br/>
-              <input type="checkbox" value="ReStore Rack" onClick={() => updateFilter("ReStore Rack", "processor")}/> 
-              <label> ReStore Rack </label><br/>
-              <input type="checkbox" value="ReStore-Broken Arrow" onClick={() => updateFilter("ReStore-Broken Arrow", "processor")}/> 
-              <label> ReStore-Broken Arrow </label><br/>
-              <input type="checkbox" value="ReStore-Claremore" onClick={() => updateFilter("ReStore-Claremore", "processor")}/> 
-              <label> ReStore-Claremore </label><br/>
             </div>
           
             <div>

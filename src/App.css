@@ -101,7 +101,7 @@ button:hover {
 .show-button {
   font-weight: bold;
   font-size: 2em;
-  border-radius: 0.5em;
+  border-radius: 0.35em;
   color: black;
   background-color: rgba(198, 214, 43, 1);
   border: none;

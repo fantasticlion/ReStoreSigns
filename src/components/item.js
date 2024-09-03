@@ -3,8 +3,6 @@ export default function ProductItem(props) {
     <div className="item">
       <img src={props.info["image_link"]}></img>
       <button onClick={() => props.setStateOfParent(props.info["name"], props.info["unit_price"])}>
-        Add</button>
-      <button onClick={() => props.setStateOfParent(props.info["name"], props.info["unit_price"])}>
-        Remove</button>
+        {props.added === 1 ? "Remove" : "Add"}</button>
     </div>);
 }

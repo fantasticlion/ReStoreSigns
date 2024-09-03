@@ -125,10 +125,10 @@ button:hover {
 }
 
 .item button {
-  position: flex;
+  position: relative;
   margin-left: 2em;
   bottom: 0em;
-  align: right;
+  align-items: right;
 }
 
 .toggle-button {

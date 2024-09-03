@@ -125,7 +125,7 @@ button:hover {
 }
 
 .item button {
-  width: 3vw;
+  margin-left: 18vw;
   bottom: 0em;
 }
 
@@ -175,6 +175,10 @@ button:hover {
   .item {
     width: 87.5vw;
     margin: 5vw;
+  }
+
+  .item button {
+    margin-left: 64.3vw;
   }
 
   .item img {

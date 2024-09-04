@@ -243,7 +243,7 @@ function App() {
           
             <div>
               <h3>Total Price:</h3>
-              <label className = "total-price">${total}</label>
+              <div className = "total-price">${total}</div>
             </div>
             <button onClick={() => resetPage()}>{"Reset"}</button>
           </form>

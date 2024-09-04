@@ -44,7 +44,7 @@ function App() {
       tempFavorites[name] = (tempFavorites[name] || 0) + 1;
       setTotal(total + parseFloat(unit_price));
     } else if (action === 'remove') {
-      if (tempFavorites[name] > 0) {
+      if (tempFavorites[name] > -1) {
         tempFavorites[name] -= 1;
         setTotal(total - parseFloat(unit_price));
       }

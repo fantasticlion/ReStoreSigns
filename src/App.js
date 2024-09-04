@@ -42,14 +42,13 @@ function App() {
   
     if (action === 'add') {
       tempFavorites[name] = (tempFavorites[name] || 0) + 1;
-      setTotal(total + parseFloat(unit_price));
+      setTotal(Math.round((total + parseFloat(unit_price)) * 100) / 100);
     } else if (action === 'remove') {
       if (tempFavorites[name] > -1) {
         tempFavorites[name] -= 1;
-        setTotal(total - parseFloat(unit_price));
+        setTotal(Math.round((total - parseFloat(unit_price)) * 100) / 100);
       }
     }
-    setTotal(Math.round(total * 100) / 100);
     setFavorites(tempFavorites);
   };
 

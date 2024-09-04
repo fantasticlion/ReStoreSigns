@@ -130,6 +130,7 @@ button:hover {
 }
 
 .item button {
+  margin-top: 0.75em;
   margin-left: 18.5vw;
   border-radius: 0.35em;
   bottom: 0em;

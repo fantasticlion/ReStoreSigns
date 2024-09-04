@@ -49,7 +49,7 @@ function App() {
         setTotal(total - parseFloat(unit_price));
       }
     }
-    setTotal(total.toFixed(2));
+    setTotal(Math.round(total * 100) / 100);
     setFavorites(tempFavorites);
   };
 

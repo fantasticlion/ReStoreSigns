@@ -64,6 +64,10 @@ button:hover {
   font-size: 2vh;
 }
 
+.favorites total-price {
+  font-size: 2vh;
+}
+
 .favorites label {
   font-size: 1.8vh;
 }

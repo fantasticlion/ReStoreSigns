@@ -23,7 +23,7 @@ h3, label {
 }
 
 total-price {
-  font-size: 3vh;
+  font-size: 2.7vh;
   font-weight: bold;
 }
 
@@ -62,11 +62,11 @@ button:hover {
 }
 
 .favorites h3 {
-  font-size: 3vh;
+  font-size: 2.7vh;
 }
 
 .favorites label {
-  font-size: 2.7vh;
+  font-size: 2.43vh;
 }
 
 .favorites input {

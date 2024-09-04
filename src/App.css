@@ -22,6 +22,10 @@ h3, label {
   line-height: 0;
 }
 
+total-price {
+  font-size: 1.2em;
+}
+
 .inline-container {
   display: flex;
   align-items: center;

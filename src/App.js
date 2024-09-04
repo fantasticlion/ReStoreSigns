@@ -42,11 +42,11 @@ function App() {
   
     if (action === 'add') {
       tempFavorites[name] = (tempFavorites[name] || 0) + 1;
-      setTotal(total + parseFloat(unit_price)).toFixed(2));
+      setTotal((total + parseFloat(unit_price)).toFixed(2));
     } else if (action === 'remove') {
       if (tempFavorites[name] > -1) {
         tempFavorites[name] -= 1;
-        setTotal(total - parseFloat(unit_price)).toFixed(2));
+        setTotal((total - parseFloat(unit_price)).toFixed(2));
       }
     }
   

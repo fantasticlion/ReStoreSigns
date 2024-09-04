@@ -24,6 +24,7 @@ h3, label {
 
 total-price {
   font-size: 1.2em;
+  font-weight: bold;
 }
 
 .inline-container {

@@ -98,6 +98,7 @@ button:hover {
   font-weight: bold;
   font-size: 1.8em;
   color: black;
+  border-radius: 0.2em;
   background-color: rgba(198, 214, 43, 1);
   border: none;
   padding: 0 0.5em 0 0.5em;

@@ -37,10 +37,19 @@ function App() {
     {type: "product_type", value: "Furniture"},
     {type: "product_type", value: "Other"}]
 
-  const updateFavorites = (name, unit_price) => {
-    let tempFavorites = favorites;
-    tempFavorites[name] = tempFavorites[name] === 1 ? -1 : 1;
-    setTotal(total + tempFavorites[name] * parseFloat(unit_price));
+  const updateFavorites = (name, unit_price, action) => {
+    let tempFavorites = { ...favorites };
+  
+    if (action === 'add') {
+      tempFavorites[name] = (tempFavorites[name] || 0) + 1;
+      setTotal(total + parseFloat(unit_price));
+    } else if (action === 'remove') {
+      if (tempFavorites[name] > 0) {
+        tempFavorites[name] -= 1;
+        setTotal(total - parseFloat(unit_price));
+      }
+    }
+  
     setFavorites(tempFavorites);
   };
 

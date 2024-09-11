@@ -1,0 +1,73 @@
+name,product_type,release_time,unit_price,note,processor,image_link,id
+White Matte,Tile Flooring,11-Sep,1.19,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/White%20Matte.jpg,1
+Mesa Sands,Tile Flooring,11-Sep,1.29,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Mesa%20Sands.jpg,2
+Solid White Matte Tile,Tile Flooring,11-Sep,0.79,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Solid%20White%20Matte%20Tile.jpg,3
+Timber Grey,Tile Flooring,11-Sep,1.19,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Timber%20Grey.jpg,4
+Painted Wood Beige,Tile Flooring,11-Sep,1.29,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Painted%20Wood%20Beige.jpg,5
+Wind River Beige,Tile Flooring,11-Sep,1.29,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Wind%20River%20Beige.jpg,6
+Light Grey,Tile Flooring,11-Sep,0.99,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Light%20Grey%20(New).jpg,7
+Venato White,Tile Flooring,11-Sep,1.29,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Venato%20White%20(New).jpg,8
+Polarwood,Luxury Vinyl,11-Sep,1.69,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Polar%20Wood.jpg,9
+Axe Cut Oak,Luxury Vinyl,11-Sep,1.69,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Axe%20Cut%20Oak.jpg,10
+Sandalwood SPC Flooring,Luxury Vinyl,11-Sep,2.25,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Sandalwood%20SPC%20Flooring.jpg,11
+Dixe,Luxury Vinyl,11-Sep,2.29,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Dixie.jpg,12
+Sabine SPC,Luxury Vinyl,11-Sep,2.29,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Sabine%20SPC.jpg,13
+Edinburgh SPC Flooring,Luxury Vinyl,11-Sep,2.29,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Edinburgh%20SPC%20Flooring.jpg,14
+Rochester SPC Flooring,Luxury Vinyl,11-Sep,2.29,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Rochester%20SPC%20Flooring.jpg,15
+Gingerwood SPC Flooring,Luxury Vinyl,11-Sep,2.25,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Gingerwood%20SPC%20Flooring.jpg,16
+Spray Paint,Paint,11-Sep,3.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Spray%20Paint.jpg,17
+Carpet Tiles 19.7,Carpet,11-Sep,3.95,None.,ReStore-Broken Arrow,https://github.com/fantasticlion/ReStoreSigns/blob/main/src/BA-signs/Carpet%20Tiles%2019.7.jpg,18
+Carpet Tiles 24,Carpet,11-Sep,3.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Carpet%20Tiles%2024.jpg,19
+Tile 24,Carpet,11-Sep,2,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Tile-24x24.jpg,20
+Tile 12,Carpet,11-Sep,1,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Tile-12x12.jpg,21
+Tile 4,Carpet,11-Sep,0.25,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Tile-4x4.jpg,22
+Loose Tile Pieces Small,Carpet,11-Sep,0.25,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Loose%20Tile%20Pieces-small.jpg,23
+Loose Tile Pieces Medium,Carpet,11-Sep,0.5,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Loose%20Tile%20Pieces-medium.jpg,24
+Loose Tile Pieces Large,Carpet,11-Sep,0.75,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Loose%20Tile%20Pieces-large.jpg,25
+Superior Quality Accent Rugs-18x24,Carpet,11-Sep,3.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Superior%20Quality%20Accent%20Rugs-18x24.jpg,26
+Superior Quality Accent Rugs-24x36,Carpet,11-Sep,8.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Superior%20Quality%20Accent%20Rugs-24x36.jpg,27
+Superior Quality Accent Rugs-24x72,Carpet,11-Sep,19.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Superior%20Quality%20Accent%20Rugs-24x72.jpg,28
+Runners-8,Carpet,11-Sep,39.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Runners-8.jpg,29
+Runners-10,Carpet,11-Sep,49.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Runners-10.jpg,30
+Runners-12,Carpet,11-Sep,69.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Runners-12.jpg,31
+Rugs 8x10,Carpet,11-Sep,169.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Rugs.jpg,32
+Surya Area Rugs-5x8,Carpet,11-Sep,99.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Surya%20Area%20Rugs-5x8.jpg,33
+Surya Area Rugs-6x9,Carpet,11-Sep,59.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Surya%20Area%20Rugs-6x9.jpg,34
+Surya Area Rugs-8x10,Carpet,11-Sep,169.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Surya%20Area%20Rugs-8x10.jpg,35
+Entry Rug-2x3,Carpet,11-Sep,24.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Entry%20Rug.jpg,36
+Electric Ceramic Top Slide-in Range,Electric,11-Sep,599,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Electric%20Ceramic%20Top%20Slide-in%20Range.jpg,37
+Gas Slide-in Range,Electric,11-Sep,549,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Gas%20Slide-in%20Range.jpg,38
+Cabinet Door-Drawer Sale,Furniture,11-Sep,1,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Cabinet%20Doors_Drawers-sale.jpg,39
+Cabinet Door Drawer Single,Furniture,11-Sep,3,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Cabinet%20Doors_Drawers-3%20each.jpg,40
+Cabinet Door Drawer Double,Furniture,11-Sep,5,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Cabinet%20Doors_Drawers-2%20for%205.jpg,41
+Mattresses,Furniture,11-Sep,125.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Mattresses.jpg,42
+Countertops-8,Furniture,11-Sep,149.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Countertops-8.jpg,43
+Countertops-10,Furniture,11-Sep,169.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Countertops-10.jpg,44
+Toilets-complete,Furniture,11-Sep,30,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Toilets%20(complete).jpg,45
+Shaggy Daddy 3 Piece Bath Set,Other,11-Sep,16.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Shaggy%20Daddy%203%20Piece%20Bath%20Set.jpg,46
+2 Piece Chenille Bath Set,Other,11-Sep,16.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/2%20Piece%20Chenille%20Bath%20Set.jpg,47
+14 Piece Bathroom Sets,Other,11-Sep,14.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/14%20Piece%20Bathroom%20Sets.jpg,48
+Roller Frames-4,Other,11-Sep,1.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Roller%20Frames-4.jpg,49
+Roller Frames-9,Other,11-Sep,2.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Roller%20Frames-9.jpg,50
+Tarps-6x8,Other,11-Sep,3.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Tarps-6x8.jpg,51
+Tarps-8x10,Other,11-Sep,4.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Tarps-8x10.jpg,52
+Ceiling Fan Mounting Brackets-Single,Other,11-Sep,3,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Ceiling%20Fan%20Mounting%20Brackets-3%20each.jpg,53
+Ceiling Fan Mounting Brackets-Double,Other,11-Sep,5,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Ceiling%20Fan%20Mounting%20Brackets-2%20for%205.jpg,54
+Toe Kick Plate,Other,11-Sep,14.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Habco%20Cabinet%20Accessories-toe%20kick%20plate.jpg,55
+Finished Wall Ends,Other,11-Sep,9.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Habco%20Cabinet%20Accessories-finished%20wall%20ends.jpg,56
+Base Finished End,Other,11-Sep,19.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Habco%20Cabinet%20Accessories-base%20finished%20end.jpg,57
+Bungee Cords-24,Other,11-Sep,0.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Bungee%20Cords-24.jpg,58
+Bungee Cords-36,Other,11-Sep,1.25,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Bungee%20Cords-36.jpg,59
+Duct Tape,Other,11-Sep,1.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Assorted%20Tapes-duct%20tape.jpg,60
+Clear Tape,Other,11-Sep,2.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Assorted%20Tapes-clear%20tape.jpg,61
+Painters Tape,Other,11-Sep,6.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Assorted%20Tapes-painter's%20tape.jpg,62
+Paint Tray,Other,11-Sep,2.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Paint%20Tray%20%26%20Tray%20Liner-paint%20tray.jpg,63
+Tray Liner,Other,11-Sep,1.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Paint%20Tray%20%26%20Tray%20Liner-tray%20liner.jpg,64
+Toilet Bowl-Brush,Other,11-Sep,0.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Toilet%20Bowl-brush.jpg,65
+Toilet Bowl-Holder,Other,11-Sep,0.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Toilet%20Bowl-holder.jpg,66
+Globes-Small,Other,11-Sep,1,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Globes-small.jpg,67
+Globes-Medium-Large,Other,11-Sep,2,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Globes-medium_large.jpg,68
+7-foot trim,Other,11-Sep,3.95,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/7-foot%20Trim.jpg,69
+Pallets-Small,Other,11-Sep,2,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Pallets-small.jpg,70
+Pallets-Medium-Large,Other,11-Sep,3,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Pallets-medium_large.jpg,71
+Pallets-Plastic,Other,11-Sep,4,None.,ReStore-Broken Arrow,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/BA-signs/Pallets-plastic.jpg,72

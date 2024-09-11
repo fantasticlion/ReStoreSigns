@@ -259,7 +259,7 @@ function App() {
       <div className="product-cards">
         
 
-        <div className="product"> {
+        <div className="BAproduct"> {
           filterBAData.sort(allSorts[sort].method)
             .map((item2, index2) => (<ProductBAItem key={"product" + index2} info={item2} 
               added={BAfavorites[item2.name]} setStateOfParent={updateBAFavorites}/>))}</div>

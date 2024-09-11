@@ -137,6 +137,17 @@ function App() {
     });
   };
 
+  const toggleBAProductVisibility = () => {
+    const products = document.querySelectorAll('.BAproduct');
+    products.forEach(product => {
+      if (product.style.display === 'none') {
+        product.style.display = 'flex';
+      } else {
+        product.style.display = 'none';
+      }
+    });
+  };
+
 
   // Disable horizontal scrolling when scale is 1
   function disableHorizontalScroll() {
@@ -242,7 +253,7 @@ function App() {
 
       <div className="inline-container">
         <h2>ReStore-Broken Arrow</h2>
-        <button onClick={toggleProductVisibility} className="show-button">-</button>
+        <button onClick={toggleBAProductVisibility} className="show-button">-</button>
       </div>
 
       <div className="product-cards">

@@ -2,13 +2,18 @@ import './App.css';
 import { useState } from 'react';
 import productsData from "./assets/items.json";
 import ProductItem from "./components/item";
+import productsBAData from "./assets/BA-items.json";
+import ProductBAItem from "./components/BA-item";
 
 function App() {
   const [favorites, setFavorites] = useState(productsData.reduce((object, key) => 
     ({ ...object, [key.name]: -1}), {}));
+  const [BAfavorites, setBAFavorites] = useState(productsBAData.reduce((object, key) => 
+    ({ ...object, [key.name]: -1}), {}));
   const [sort, setSort] = useState("productType");
   const [filter, setFilter] = useState({"release_time": [], "product_type": [], "processor": []});
   const [filterData, setFilterData] = useState(productsData);
+  const [filterBAData, setFilterBAData] = useState(productsBAData);
   const [total, setTotal] = useState(0);
   const [showNav, setShowNav] = useState(false); // Set to false to hide filters by default
   const [menuActive, setMenuActive] = useState(false); // State for the mobile menu
@@ -52,6 +57,21 @@ function App() {
     setFavorites(tempFavorites);
   };
 
+  const updateBAFavorites = (name, unit_price, action) => {
+    let tempBAFavorites = { ...BAfavorites };
+  
+    if (action === 'add') {
+      tempBAFavorites[name] = (tempBAFavorites[name] || 0) + 1;
+      setTotal(Math.round((total + parseFloat(unit_price)) * 100) / 100);
+    } else if (action === 'remove') {
+      if (tempBAFavorites[name] > -1) {
+        tempBAFavorites[name] -= 1;
+        setTotal(Math.round((total - parseFloat(unit_price)) * 100) / 100);
+      }
+    }
+    setBAFavorites(tempBAFavorites);
+  };
+
   const updateFilter = (newFilter, filterType) => {
     let tempFilters = filter[filterType];
 
@@ -68,9 +88,17 @@ function App() {
     const size = filter["release_time"].length + filter["product_type"].length + filter["processor"].length;
     if (size === 0 || size === allFilters.length) {
       setFilterData(productsData);
+      setFilterBAData(productsBAData);
     } 
     else {
       setFilterData(productsData.filter(item => 
+        (filter["release_time"].includes(item["release_time"]) 
+        || filter["release_time"].length === 0) && 
+        (filter["product_type"].includes(item["product_type"]) 
+        || filter["product_type"].length === 0) && 
+        (filter["processor"].includes(item["processor"]) 
+        || filter["processor"].length === 0)));
+      setFilterBAData(productsBAData.filter(item => 
         (filter["release_time"].includes(item["release_time"]) 
         || filter["release_time"].length === 0) && 
         (filter["product_type"].includes(item["product_type"]) 
@@ -84,7 +112,9 @@ function App() {
     setSort("productType");
     setFilter({"release_time": [], "product_type": [], "processor": []});
     setFilterData(productsData);
+    setFilterBAData(productsBAData);
     setFavorites(productsData.reduce((object, key) => ({ ...object, [key.name]: -1}), {}));
+    setBAFavorites(productsBAData.reduce((object, key) => ({ ...object, [key.name]: -1}), {}));
     setTotal(0);
   }
 
@@ -196,7 +226,7 @@ function App() {
     )}
       <h1>Permanent Items at Green Country ReStores</h1>
       <div className="inline-container">
-        <h2>ReStore Tulsa</h2>
+        <h2>ReStore-Tulsa</h2>
         <button onClick={toggleProductVisibility} className="show-button">-</button>
       </div>
 
@@ -208,6 +238,20 @@ function App() {
           filterData.sort(allSorts[sort].method)
             .map((item, index) => (<ProductItem key={"product" + index} info={item} 
               added={favorites[item.name]} setStateOfParent={updateFavorites}/>))}</div>
+      </div>
+
+      <div className="inline-container">
+        <h2>ReStore-Broken Arrow</h2>
+        <button onClick={toggleProductVisibility} className="show-button">-</button>
+      </div>
+
+      <div className="product-cards">
+        
+
+        <div className="product"> {
+          filterBAData.sort(allSorts[sort].method)
+            .map((item, index) => (<ProductBAItem key={"product" + index} info={BA-item} 
+              added={BAfavorites[BA-item.name]} setStateOfParent={updateBAFavorites}/>))}</div>
       </div>
 
       {showNav && (

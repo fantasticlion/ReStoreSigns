@@ -250,8 +250,8 @@ function App() {
 
         <div className="product"> {
           filterBAData.sort(allSorts[sort].method)
-            .map((BA-item, BA-index) => (<ProductBAItem key={"product" + BA-index} info={BA-item} 
-              added={BAfavorites[BA-item.name]} setStateOfParent={updateBAFavorites}/>))}</div>
+            .map((item2, index2) => (<ProductBAItem key={"product" + index2} info={item2} 
+              added={BAfavorites[item2.name]} setStateOfParent={updateBAFavorites}/>))}</div>
       </div>
 
       {showNav && (

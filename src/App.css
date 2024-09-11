@@ -99,6 +99,11 @@ button:hover {
   flex-wrap: wrap;
 }
 
+.BAproduct {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .show-button {
   font-weight: bold;
   font-size: 1.8em;

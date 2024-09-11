@@ -1,4 +1,4 @@
-export default function ProductItem(props) {   
+export default function ProductBAItem(props) {   
   return (
     <div className="item">
       <img src={props.info["image_link"]} alt={props.info["name"]}></img>

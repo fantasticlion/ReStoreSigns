@@ -253,7 +253,7 @@ nav ul li a:hover {
   right: 2em;
   z-index: 1001;
   background-color: rgba(198, 214, 43, 1);
-  border: none;
+  border: block;
   padding: 0.5em 1em;
   font-weight: bold;
   color: black;

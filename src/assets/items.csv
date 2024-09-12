@@ -1,0 +1,73 @@
+name,product_type,release_time,unit_price,note,processor,image_link,id
+Burlington Walnut,Tile Flooring,12-Sep,1.29,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Burlington%20Walnut.png,1
+Grey Matte Swirl,Tile Flooring,12-Sep,0.99,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Grey%20Matte%20Swirl.png,2
+Light Grey,Tile Flooring,12-Sep,0.99,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Light%20Grey%20(New).png,3
+Venato White,Tile Flooring,12-Sep,1.29,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Venato%20White%20(New).png,4
+Timber Grey,Tile Flooring,12-Sep,1.19,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Timber%20Grey.png,5
+Solid White Matte Tile,Tile Flooring,12-Sep,0.79,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Solid%20White%20Matet%20Tile.png,6
+Wind River Beige,Tile Flooring,12-Sep,1.29,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Wind%20River%20Beige.png,7
+White Matte,Tile Flooring,12-Sep,1.19,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/White%20Matte.png,8
+Cayman Red,Tile Flooring,12-Sep,1.19,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Cayman%20Red.png,9
+Painted Wood,Tile Flooring,12-Sep,1.19,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Painted%20Wood.png,10
+Mica,Tile Flooring,12-Sep,1.19,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Mica.png,11
+Sabine SPC,Luxury Vinyl,12-Sep,2.29,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Sabine%20SPC.png,12
+Rochester SPC Flooring,Luxury Vinyl,12-Sep,2.29,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Rochester%20SPC%20Flooring.png,13
+Sandalwood SPC Flooring,Luxury Vinyl,12-Sep,2.29,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Sandalwood%20SPC%20Flooring.png,14
+Edinburgh SPC Flooring,Luxury Vinyl,12-Sep,2.29,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Edinburgh%20SPC%20Flooring.png,15
+Paint-One Gallon,Paint,12-Sep,21.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Paint-One%20Gallon.png,16
+Paint-Five Gallon,Paint,12-Sep,95.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Paint-Five%20Gallon.png,17
+Spray Paint,Paint,12-Sep,3.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Spray%20Paint.png,18
+Extension Pole,Paint,12-Sep,9.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Paint%20Stick.png,19
+Carpet Tiles,Carpet,12-Sep,3.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Carpet%20Tiles.png,20
+Rugs-8x10,Carpet,12-Sep,169.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Rugs-8x10.png,21
+Rugs-6x9,Carpet,12-Sep,59.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Rugs-6x9.png,22
+Rugs-5x8,Carpet,12-Sep,99.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Rugs-5x8.png,23
+Surya Runners-2x3,Carpet,12-Sep,24.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Surya%20Runners-2x3.png,24
+Surya Runners-8,Carpet,12-Sep,39.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Surya%20Runners-8%20ft.png,25
+Surya Runners-10,Carpet,12-Sep,49.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Surya%20Runners-10%20ft.png,26
+Surya Runners-12,Carpet,12-Sep,69.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Surya%20Runners-12%20ft.png,27
+Superior Quality Rugs-24x36,Carpet,12-Sep,8.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Superior%20Quality%20Rugs-24x36.png,28
+Superior Quality Rugs-24x72,Carpet,12-Sep,19.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Superior%20Quality%20Rugs-24x72.png,29
+Heavy Duty Utility Mat,Carpet,12-Sep,15.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Heavy%20Duty%20Utility%20Mat.png,30
+Welcome Mats,Carpet,12-Sep,12.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Welcome%20Mats.png,31
+Electric Coil Range,Electric,12-Sep,199,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Electric%20Coil%20Range.png,32
+Electric Ceramic Top Slide-in Range,Electric,12-Sep,599,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Electric%20Ceramic%20Top%20Slide-in%20Range.png,33
+Gas Slide-in Range,Electric,12-Sep,549,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Gas%20Slide-in%20Range.png,34
+Shelving Boards,Furniture,12-Sep,0,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Shelving%20boards.png,35
+Standard Size Cabinet Doors/Drawers-Sale,Furniture,12-Sep,1,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Standard%20Size%20Cabinet%20Doors_Drawers-Sale.png,36
+Standard Size Cabinet Doors/Drawers-Single,Furniture,12-Sep,3,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Standard%20Size%20Cabinet%20Doors_Drawers-Single.png,37
+Standard Size Cabinet Doors/Drawers-Double,Furniture,12-Sep,5,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Standard%20Size%20Cabinet%20Doors_Drawers-Double.png,38
+Mattresses,Furniture,12-Sep,129.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Mattresses.png,39
+Globes-Small,Other,12-Sep,1,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Globes-Small.png,40
+Globes-Large,Other,12-Sep,3,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Globes-Large.png,41
+Nitrile Gloves,Other,12-Sep,2.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Nitrile%20Gloves.png,42
+"9"" Roller Covers",Other,12-Sep,1.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/9_%20Roller%20Covers.png,43
+Tarps-6x8,Other,12-Sep,4.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Tarps-6x8.png,44
+Tarps-8x10,Other,12-Sep,5.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Tarps-8x10.png,45
+Tarps-12x16,Other,12-Sep,12.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Tarps-12x16.png,46
+Fan Blade Set,Other,12-Sep,5,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Fan%20Blade%20Set.png,47
+Cardboard Boxes,Other,12-Sep,1,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Cardboards.png,48
+Standard Door Knobs,Other,12-Sep,1,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Standard%20Door%20Knobs.png,49
+Large Door Handles,Other,12-Sep,5,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Large%20Door%20Handles.png,50
+Assorted Tapes-Duct,Other,12-Sep,1.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Assorted%20Tapes-Duct.png,51
+Assorted Tapes-Clear,Other,12-Sep,2.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Assorted%20Tapes-Clear.png,52
+Assorted Tapes-Painters,Other,12-Sep,6.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Assorted%20Tapes-Painters.png,53
+7-foot Trim,Other,12-Sep,3.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/7-foot%20Trim.png,54
+Chip Brush-Half,Other,12-Sep,0.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Chip%20Brush-half.png,55
+Chip Brush-1,Other,12-Sep,1.25,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Chip%20Brush-1.png,56
+Chip Brush-2,Other,12-Sep,1.5,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Chip%20Brush-2.png,57
+Chip Brush-3,Other,12-Sep,1.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Chip%20Brush-3.png,58
+Chip Brush-4,Other,12-Sep,1.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Chip%20Brush-4.png,59
+Drop Cloth,Other,12-Sep,1.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Drop%20Cloth.png,60
+"24"" Roof Brush with Squeegee",Other,12-Sep,4.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/24_%20Roof%20Brush%20with%20Squeegee.png,61
+Checkout Desk Items-Tape,Other,12-Sep,4.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Checkout%20Desk%20Items-Tape.png,62
+Checkout Desk Items-Earbuds,Other,12-Sep,1.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Checkout%20Desk%20Items-Earbuds.png,63
+Checkout Desk Items-AAA,Other,12-Sep,2.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Checkout%20Desk%20Items-AAA.png,64
+Checkout Desk Items-AA,Other,12-Sep,2.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Checkout%20Desk%20Items-AA.png,65
+Checkout Desk Items-C,Other,12-Sep,3.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Checkout%20Desk%20Items-C.png,66
+Checkout Desk Items-D,Other,12-Sep,3.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Checkout%20Desk%20Items-D.png,67
+Checkout Desk Items-9 Volt,Other,12-Sep,3.95,None.,ReStore-Tulsa,https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Checkout%20Desk%20Items-9%20Volt.png,68
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,

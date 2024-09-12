@@ -148,7 +148,6 @@ function App() {
     });
   };
 
-
   // Disable horizontal scrolling when scale is 1
   function disableHorizontalScroll() {
     if (window.visualViewport.scale === 1) {
@@ -163,6 +162,13 @@ function App() {
 
   // Add an event listener for when the viewport changes (e.g., zooming)
   window.visualViewport.addEventListener('resize', disableHorizontalScroll);
+
+  const handleToggleFilters = () => {
+    if (!showNav) {
+      resetPage();
+    }
+    setShowNav(!showNav);
+  };
 
   return (
     <div className="App">
@@ -200,7 +206,7 @@ function App() {
           <div className="overlay-menu">
             {menuActive && !newMenuActive && (
               <>
-                <li><a onClick={toggleNewMenu} className="underline">Locations &gt;</a></li>
+                <li><a onClick={toggleNewMenu} className="underline">Locations ></a></li>
                 <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
                 <li><a href="https://www.greencountryrestore.org/habco">HABCO Cabinets</a></li>
                 <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
@@ -209,7 +215,7 @@ function App() {
             )}
             {menuActive && newMenuActive && (
               <>
-                <li><a onClick={toggleNewMenu}>&lt; Back</a></li>
+                <li><a onClick={toggleNewMenu}>< Back</a></li>
                 <li><a href="https://www.greencountryrestore.org/restoretulsa">ReStore Tulsa</a></li>
                 <li><a href="https://www.greencountryrestore.org/restore-rack">ReStore Rack</a></li>
                 <li><a href="https://www.greencountryrestore.org/restorebrokenarrow">ReStore Broken Arrow</a></li>
@@ -228,23 +234,19 @@ function App() {
         )}
       </nav>
 
-
-    {/* Conditionally render the toggle button */}
-    {!menuActive && (
-      <button onClick={() => setShowNav(!showNav)} className="toggle-button">
-        {showNav ? 'Hide Filters' : 'Show Filters'}
-      </button>
-    )}
+      {/* Conditionally render the toggle button */}
+      {!menuActive && (
+        <button onClick={handleToggleFilters} className="toggle-button">
+          {showNav ? 'Hide Filters' : 'Show Filters'}
+        </button>
+      )}
       <h1>Permanent Items at Green Country ReStores</h1>
       <div className="inline-container">
         <h2>ReStore-Tulsa</h2>
         <button onClick={toggleProductVisibility} className="show-button">-</button>
       </div>
 
-        
       <div className="product-cards">
-        
-
         <div className="product"> {
           filterData.sort(allSorts[sort].method)
             .map((item, index) => (<ProductItem key={"product" + index} info={item} 
@@ -257,8 +259,6 @@ function App() {
       </div>
 
       <div className="product-cards">
-        
-
         <div className="BAproduct"> {
           filterBAData.sort(allSorts[sort].method)
             .map((item2, index2) => (<ProductBAItem key={"product" + index2} info={item2} 
@@ -304,46 +304,43 @@ function App() {
           </form>
         </div>
       )}
-<footer>
-  <div className="footer-container">
-    <div className="footer-mission">All purchases and donations support Green Country Habitat for Humanity's mission to make safe, quality, and affordable homes accessible to hardworking Tulsa area families.</div>
-    <p>Donations accepted during open hours only. It is illegal to leave items when stores are closed.</p>
-    <p>See our <a href="https://www.greencountryrestore.org/policies">Terms and Policies.</a></p>
-    <p>Follow us for latest inventory:</p>
+      <footer>
+        <div className="footer-container">
+          <div className="footer-mission">All purchases and donations support Green Country Habitat for Humanity's mission to make safe, quality, and affordable homes accessible to hardworking Tulsa area families.</div>
+          <p>Donations accepted during open hours only. It is illegal to leave items when stores are closed.</p>
+          <p>See our <a href="https://www.greencountryrestore.org/policies">Terms and Policies.</a></p>
+          <p>Follow us for latest inventory:</p>
 
-    <div className="footer-social">
-      <a href="https://www.facebook.com/ReStoreTulsa1" target="_blank" rel="noopener noreferrer">
-        <img src="https://raw.githubusercontent.com/fantasticlion/ReStoreItems/main/src/Facebook_icon.png" alt="Facebook" />
-      </a>
-      <a href="https://www.instagram.com/greencountryrestore/" target="_blank" rel="noopener noreferrer">
-        <img src="https://raw.githubusercontent.com/fantasticlion/ReStoreItems/main/src/Instagram_icon.png" alt="Instagram" />
-      </a>
-    </div>
-    
-    <div className="footer-links">
-      <ul>
-        <li><a href="https://www.greencountryrestore.org/restoretulsa">ReStore Tulsa</a></li>
-        <li><a href="https://www.greencountryrestore.org/restore-rack">ReStore Rack</a></li>
-        <li><a href="https://www.greencountryrestore.org/restorebrokenarrow">ReStore Broken Arrow</a></li>
-        <li><a href="https://www.greencountryrestore.org/restoreclaremore">ReStore Claremore</a></li>
-        <li><a href="https://www.greencountryrestore.org/habco">HABCO Custom Cabinets</a></li>
-        <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
-        <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
-        <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
-        <li><a href="https://www.greencountryrestore.org/donationpickup">Donation Pickup</a></li>
-      </ul>
-    </div>
-    
-    <p>Green Country Habitat for Humanity is a charitable organization under tax code 501 (c)(3), and contributions are tax deductible.</p>
-    
-    <p>
-      <a href="mailto:info@greencountryhabitat.org">info@greencountryhabitat.org</a> /
-      <a href="tel:+19183595555">918-359-5555</a>
-    </p>
-  </div>
-</footer>
-
-
+          <div className="footer-social">
+            <a href="https://www.facebook.com/ReStoreTulsa1" target="_blank" rel="noopener noreferrer">
+              <img src="https://raw.githubusercontent.com/fantasticlion/ReStoreItems/main/src/Facebook_icon.png" alt="Facebook" />
+            </a>
+            <a href="https://www.instagram.com/greencountryrestore/" target="_blank" rel="noopener noreferrer">
+              <img src="https://raw.githubusercontent.com/fantasticlion/ReStoreItems/main/src/Instagram_icon.png" alt="Instagram" />
+            </a>
+          </div>
+          
+          <div className="footer-links">
+            <ul>
+              <li><a href="https://www.greencountryrestore.org/restoretulsa">ReStore Tulsa</a></li>
+              <li><a href="https://www.greencountryrestore.org/restore-rack">ReStore Rack</a></li>
+              <li><a href="https://www.greencountryrestore.org/restorebrokenarrow">ReStore Broken Arrow</a></li>
+              <li><a href="https://www.greencountryrestore.org/restoreclaremore">ReStore Claremore</a></li>
+              <li><a href="https://www.greencountryrestore.org/habco">HABCO Custom Cabinets</a></li>
+              <li><a href="https://www.greencountryrestore.org/deconstruction">Deconstruction</a></li>
+              <li><a href="https://greencountryhabitat.org/careers">Careers</a></li>
+              <li><a href="https://www.greencountryrestore.org/contactus">Contact Us</a></li>
+              <li><a href="https://www.greencountryrestore.org/donationpickup">Donation Pickup</a></li>
+            </ul>
+          </div>
+          
+          <p>Green Country Habitat for Humanity is a charitable organization under tax code 501 (c)(3), and contributions are tax deductible.</p>
+          <p>
+            <a href="mailto:info@greencountryhabitat.org">info@greencountryhabitat.org</a> /
+            <a href="tel:+19183595555">918-359-5555</a>
+          </p>
+        </div>
+      </footer>
     </div>
   );
 }

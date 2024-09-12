@@ -113,7 +113,18 @@ button:hover {
   background-color: rgba(198, 214, 43, 1);
   border: none;
   padding: 0 0.5em 0 0.5em;
+}
+
+.change-lang {
+  font-weight: bold;
+  font-size: 1.8em;
+  color: black;
+  border-radius: 0.2em;
+  background-color: rgba(198, 214, 43, 1);
+  border: none;
+  padding: 0 0.5em 0 0.5em;
   text-decoration: none;
+  margin-left: 2em;
 }
 
 .item {
@@ -170,6 +181,18 @@ button:hover {
 
   h3, label, li, button {
     font-size: 0.9em; /* Adjust as needed */
+  }
+
+  .change-lang {
+    font-weight: bold;
+    font-size: 1.35em;
+    color: black;
+    border-radius: 0.2em;
+    background-color: rgba(198, 214, 43, 1);
+    border: none;
+    padding: 0 0.5em 0 0.5em;
+    text-decoration: none;
+    margin-left: 1.5em;
   }
 
   .favorites {

@@ -252,7 +252,7 @@ function App() {
       <h1>Permanent Items at Green Country ReStores</h1>
         
       <a className="show-button" href="https://fantasticlion.github.io/ReStoreSigns-Spanish/">
-        <h2>Versión en Español</h2>
+        Versión en Español
       </a>
         
       <div className="inline-container">

@@ -10,6 +10,7 @@ h1 {
   background-color: rgb(32, 59, 93);
   text-align: center;
   font-size: 3em;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow */
 }
 
 h2 {
@@ -210,7 +211,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Added shadow */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 nav .logo {

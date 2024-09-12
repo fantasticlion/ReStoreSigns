@@ -250,7 +250,10 @@ function App() {
         </button>
       )}
       <h1>Permanent Items at Green Country ReStores</h1>
-      <button className="show-button" a href="https://fantasticlion.github.io/ReStoreSigns-Spanish/">Versión en Español</a> </button>
+        
+      <a className="show-button" href="https://fantasticlion.github.io/ReStoreSigns-Spanish/">
+        <h2>Versión en Español</h2>
+      </a>
         
       <div className="inline-container">
         <h2>ReStore-Tulsa</h2>

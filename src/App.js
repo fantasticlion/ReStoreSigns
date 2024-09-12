@@ -118,6 +118,15 @@ function App() {
     setTotal(0);
   }
 
+    const resetShow = () => {
+    setSort("productType");
+    setFilter({"release_time": [], "product_type": [], "processor": []});
+    setFilterData(productsData);
+    setFilterBAData(productsBAData);
+    setFavorites(productsData.reduce((object, key) => ({ ...object, [key.name]: -1}), {}));
+    setBAFavorites(productsBAData.reduce((object, key) => ({ ...object, [key.name]: -1}), {}));
+  }
+
   const toggleMenu = () => {
     setMenuActive(!menuActive);
   }
@@ -165,7 +174,7 @@ function App() {
 
   const handleToggleFilters = () => {
     if (!showNav) {
-      resetPage();
+      resetShow();
     }
     setShowNav(!showNav);
   };

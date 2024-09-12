@@ -273,9 +273,9 @@ function App() {
               <input className="jss4" type="radio" value="productType" defaultChecked name="sort" onClick={() => setSort("productType")}></input>
               <label> Product Type </label><br/>
               <input className="jss4" type="radio" value="ascending" name="sort" onClick={() => setSort("ascending")}></input>
-              <label> Unit Price: Ascending </label><br/>
+              <label> Price: Low to High </label><br/>
               <input className="jss4" type="radio" value="descending" name="sort" onClick={() => setSort("descending")}></input>
-              <label> Unit Price: Descending </label><br/>
+              <label> Price: High to Low </label><br/>
             </div>
 
             <div className="filtering">
@@ -283,7 +283,7 @@ function App() {
               <input type="checkbox" value="Tile Flooring" onClick={() => updateFilter("Tile Flooring", "product_type")}/>
               <label> Tile Flooring </label><br/>
               <input type="checkbox" value="Luxury Vinyl" onClick={() => updateFilter("Luxury Vinyl", "product_type")}/> 
-              <label> Luxury Vinyl </label><br/>
+              <label> Vinyl </label><br/>
               <input type="checkbox" value="Paint" onClick={() => updateFilter("Paint", "product_type")}/> 
               <label> Paint </label><br/>
               <input type="checkbox" value="Carpet" onClick={() => updateFilter("Carpet", "product_type")}/> 

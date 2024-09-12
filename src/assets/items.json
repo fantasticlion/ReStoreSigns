@@ -678,45 +678,5 @@
     "processor": "ReStore-Tulsa",
     "image_link": "https://raw.githubusercontent.com/fantasticlion/ReStoreSigns/main/src/signs/Checkout%20Desk%20Items-9%20Volt.png",
     "id": 68
-  },
-  {
-    "name": "",
-    "product_type": "",
-    "release_time": "",
-    "unit_price": "",
-    "note": "",
-    "processor": "",
-    "image_link": "",
-    "id": ""
-  },
-  {
-    "name": "",
-    "product_type": "",
-    "release_time": "",
-    "unit_price": "",
-    "note": "",
-    "processor": "",
-    "image_link": "",
-    "id": ""
-  },
-  {
-    "name": "",
-    "product_type": "",
-    "release_time": "",
-    "unit_price": "",
-    "note": "",
-    "processor": "",
-    "image_link": "",
-    "id": ""
-  },
-  {
-    "name": "",
-    "product_type": "",
-    "release_time": "",
-    "unit_price": "",
-    "note": "",
-    "processor": "",
-    "image_link": "",
-    "id": ""
   }
 ]

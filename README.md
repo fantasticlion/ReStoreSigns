@@ -10,7 +10,7 @@ The goal of this application is to provide users with an organized and user-frie
 - **Simplicity**: The interface is designed to be straightforward and easy to navigate, ensuring users can find what they need without unnecessary complexity.
 - **Consistency**: Consistent design elements and interactions are used throughout the application to provide a cohesive user experience.
 - **Feedback**: Users receive immediate feedback on their actions, such as adding or removing items from favorites, to ensure they are aware of the changes they make.
-- **Accessibility**: Efforts are made to ensure the application is accessible to all users, including those with disabilities, by following best practices in web accessibility.
+- **Accessibility**: Efforts are made to ensure the application is accessible to all users.
 
 ### Organization of Components
 - **App.js**: The main component that manages the state and renders the overall structure of the application, including navigation, product lists, and filters.

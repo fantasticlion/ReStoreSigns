@@ -117,7 +117,7 @@ button:hover {
 
 .change-lang {
   font-weight: bold;
-  font-size: 1.8em;
+  font-size: 1.35em;
   color: black;
   border-radius: 0.2em;
   background-color: rgba(198, 214, 43, 1);
@@ -185,7 +185,7 @@ button:hover {
 
   .change-lang {
     font-weight: bold;
-    font-size: 1.35em;
+    font-size: 1em;
     color: black;
     border-radius: 0.2em;
     background-color: rgba(198, 214, 43, 1);
